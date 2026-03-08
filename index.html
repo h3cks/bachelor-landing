@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="uk" prefix="og: https://ogp.me/ns#">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +9,29 @@
     <meta name="keywords" content="СумДУ, бакалаврська робота, вебплатформа, новели, читалка, публікація">
     <meta name="author" content="Студент СумДУ">
 
+    <meta property="og:title" content="Платформа для новел | Бакалаврська робота">
+    <meta property="og:description" content="Інформаційне та програмне забезпечення вебплатформи для створення, публікації та читання новел.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://h3cks.github.io/bachelor-landing/">
+    <meta property="og:image" content="https://h3cks.github.io/bachelor-landing/og-image.jpg">
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "ScholarlyArticle",
+            "headline": "Інформаційне та програмне забезпечення вебплатформи для створення, публікації та читання новел",
+            "author": {
+                "@type": "Person",
+                "name": "Студент СумДУ"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Сумський державний університет"
+            },
+            "about": "Розробка вебплатформи для публікації та читання новел"
+        }
+    </script>
+
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -17,5 +40,55 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<a href="#main-content" class="skip-link sr-only">Перейти до основного контенту</a>
+
+<header role="banner" class="site-header">
+    <img src="sumdu-logo.svg" alt="Логотип Сумського державного університету" class="logo">
+    <p class="subtitle">Бакалаврська робота</p>
+</header>
+
+<main role="main" id="main-content">
+    <article aria-labelledby="main-heading">
+        <h1 id="main-heading">Інформаційне та програмне забезпечення вебплатформи для створення, публікації та читання новел</h1>
+
+        <section aria-labelledby="about-heading">
+            <h2 id="about-heading">Короткий опис</h2>
+            <div class="content-placeholder"></div>
+        </section>
+
+        <section aria-labelledby="relevance-heading">
+            <h2 id="relevance-heading">Актуальність теми</h2>
+            <div class="content-placeholder"></div>
+        </section>
+
+        <section aria-labelledby="goals-heading">
+            <h2 id="goals-heading">Мета та завдання дослідження</h2>
+            <div class="content-placeholder"></div>
+        </section>
+
+        <section aria-labelledby="methodology-heading">
+            <h2 id="methodology-heading">Методологія дослідження</h2>
+            <div class="content-placeholder"></div>
+        </section>
+
+        <section aria-labelledby="results-heading">
+            <h2 id="results-heading">Очікувані результати</h2>
+            <div class="content-placeholder"></div>
+
+            <figure>
+                <img src="platform-preview.jpg" alt="Скріншот інтерфейсу майбутньої вебплатформи для читання новел" loading="lazy">
+                <figcaption>Рис. 1 - Прототип інтерфейсу платформи</figcaption>
+            </figure>
+        </section>
+
+    </article>
+</main>
+
+<footer role="contentinfo" class="site-footer">
+    <h2 id="contacts-heading" class="sr-only">Контактна інформація</h2>
+    <address aria-labelledby="contacts-heading">
+        <div class="content-placeholder"></div>
+    </address>
+</footer>
 </body>
 </html>
