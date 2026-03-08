@@ -6,7 +6,7 @@
     <title>Платформа для новел | Бакалаврська робота | СумДУ</title>
 
     <meta name="description" content="Лендінг бакалаврської роботи: Інформаційне та програмне забезпечення вебплатформи для створення, публікації та читання новел.">
-    <meta name="keywords" content="СумДУ, бакалаврська робота, вебплатформа, новели, читалка, публікація">
+    <meta name="keywords" content="СумДУ, бакалаврська робота, вебплатформа, новели, читалка, публікація, клієнт-серверна архітектура">
     <meta name="author" content="Студент СумДУ">
 
     <meta property="og:title" content="Платформа для новел | Бакалаврська робота">
@@ -20,14 +20,8 @@
             "@context": "https://schema.org",
             "@type": "ScholarlyArticle",
             "headline": "Інформаційне та програмне забезпечення вебплатформи для створення, публікації та читання новел",
-            "author": {
-                "@type": "Person",
-                "name": "Студент СумДУ"
-            },
-            "publisher": {
-                "@type": "Organization",
-                "name": "Сумський державний університет"
-            },
+            "author": {"@type": "Person", "name": "Студент СумДУ"},
+            "publisher": {"@type": "Organization", "name": "Сумський державний університет"},
             "about": "Розробка вебплатформи для публікації та читання новел"
         }
     </script>
@@ -43,41 +37,59 @@
 <a href="#main-content" class="skip-link sr-only">Перейти до основного контенту</a>
 
 <header role="banner" class="site-header">
-    <img src="sumdu-logo.svg" alt="Логотип Сумського державного університету" class="logo">
-    <p class="subtitle">Бакалаврська робота</p>
+    <div class="header-container">
+        <img src="sumdu-logo.svg" alt="Логотип Сумського державного університету" class="logo">
+        <p class="subtitle">Сумський державний університет | Бакалаврська робота</p>
+    </div>
 </header>
 
 <main role="main" id="main-content">
-    <article aria-labelledby="main-heading">
-        <h1 id="main-heading">Інформаційне та програмне забезпечення вебплатформи для створення, публікації та читання новел</h1>
+    <article aria-labelledby="main-heading" class="container">
 
-        <section aria-labelledby="about-heading">
+        <header class="article-header">
+            <h1 id="main-heading">Інформаційне та програмне забезпечення вебплатформи для створення, публікації та читання новел</h1>
+            <p class="english-title"><em>Information and Software Support of a Web Platform for Creating, Publishing, and Reading Short Stories</em></p>
+        </header>
+
+        <section aria-labelledby="about-heading" class="card">
             <h2 id="about-heading">Короткий опис</h2>
-            <div class="content-placeholder"></div>
+            <p>Розробка сучасної вебплатформи, що об'єднує авторів та читачів новел. Проєкт передбачає створення зручного інструментарію для написання, редагування та публікації творів, а також комфортного середовища для їх читання з підтримкою персоналізації та соціальної взаємодії.</p>
+            <p><strong>Ключові слова:</strong> вебплатформа, новели, публікація текстів, читалка, бази даних, клієнт-серверна архітектура, API.</p>
         </section>
 
-        <section aria-labelledby="relevance-heading">
+        <section aria-labelledby="relevance-heading" class="card">
             <h2 id="relevance-heading">Актуальність теми</h2>
-            <div class="content-placeholder"></div>
+            <p>Зростання популярності цифрової літератури та незалежного самвидаву вимагає створення спеціалізованих, швидких та зручних платформ. Існуючі рішення часто перевантажені зайвим функціоналом або не оптимізовані для читання з мобільних пристроїв. Створення спеціалізованої платформи для новел дозволить задовольнити специфічні потреби цільової аудиторії авторів та читачів.</p>
         </section>
 
-        <section aria-labelledby="goals-heading">
-            <h2 id="goals-heading">Мета та завдання дослідження</h2>
-            <div class="content-placeholder"></div>
-        </section>
+        <div class="grid-2-cols">
+            <section aria-labelledby="goals-heading" class="card">
+                <h2 id="goals-heading">Мета та завдання дослідження</h2>
+                <p><strong>Мета:</strong> Розробити програмне забезпечення для повнофункціональної вебплатформи публікації та читання новел, що забезпечить високу продуктивність та зручний користувацький досвід.</p>
+                <h3>Основні завдання:</h3>
+                <ul>
+                    <li>Проєктування архітектури реляційної бази даних для зберігання творів та профілів користувачів.</li>
+                    <li>Розробка серверної частини (backend) для обробки бізнес-логіки та забезпечення безпеки даних.</li>
+                    <li>Створення клієнтської частини (frontend) з адаптивним та інклюзивним інтерфейсом.</li>
+                    <li>Реалізація системи пошуку, категоризації та рейтингування контенту.</li>
+                </ul>
+            </section>
 
-        <section aria-labelledby="methodology-heading">
-            <h2 id="methodology-heading">Методологія дослідження</h2>
-            <div class="content-placeholder"></div>
-        </section>
+            <section aria-labelledby="methodology-heading" class="card">
+                <h2 id="methodology-heading">Методологія та результати</h2>
+                <h3>Методологія дослідження:</h3>
+                <p>У роботі застосовуються сучасні патерни проєктування програмного забезпечення, принципи клієнт-серверної архітектури та побудови RESTful API для забезпечення надійної взаємодії між компонентами системи.</p>
 
-        <section aria-labelledby="results-heading">
-            <h2 id="results-heading">Очікувані результати</h2>
-            <div class="content-placeholder"></div>
+                <h3>Очікувані результати:</h3>
+                <p>Готовий до розгортання прототип вебплатформи з базовим функціоналом реєстрації, авторизації, публікації текстів, зручною "читалкою" та адміністративною панеллю керування контентом.</p>
+            </section>
+        </div>
 
-            <figure>
+        <section aria-labelledby="media-heading" class="card">
+            <h2 id="media-heading">Візуалізація проєкту</h2>
+            <figure class="project-media">
                 <img src="platform-preview.jpg" alt="Скріншот інтерфейсу майбутньої вебплатформи для читання новел" loading="lazy">
-                <figcaption>Рис. 1 - Прототип інтерфейсу платформи</figcaption>
+                <figcaption>Рис. 1 - Архітектура або інтерфейс вебплатформи</figcaption>
             </figure>
         </section>
 
@@ -85,10 +97,14 @@
 </main>
 
 <footer role="contentinfo" class="site-footer">
-    <h2 id="contacts-heading" class="sr-only">Контактна інформація</h2>
-    <address aria-labelledby="contacts-heading">
-        <div class="content-placeholder"></div>
-    </address>
+    <div class="container">
+        <h2 id="contacts-heading">Контактна інформація</h2>
+        <address aria-labelledby="contacts-heading">
+            <p><strong>Розробник:</strong> Студент СумДУ</p>
+            <p><strong>GitHub репозиторій:</strong> <a href="https://github.com/h3cks/bachelor-landing" target="_blank" rel="noopener noreferrer">github.com/h3cks/bachelor-landing</a></p>
+            <p><strong>Повний текст роботи:</strong> <a href="#">Завантажити PDF (у розробці)</a></p>
+        </address>
+    </div>
 </footer>
 </body>
 </html>
